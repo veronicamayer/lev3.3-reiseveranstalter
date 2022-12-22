@@ -70,13 +70,12 @@ h1 {
 .fotogalerie {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: space-around;
     padding: 0 7vw;
 }
 
 .imgFotogalerie {
-    width: 28vw;
+    width: 400px;
 }
 
 .aFotogalerie {
