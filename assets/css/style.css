@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+/* font families:
+font-family: Cinzel;
+font-family: Poppins;
+*/
+
+/* Allgemein */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-family: Cinzel;
+}
+
+/* Header */
+
+.titelbg {
+    background-image: url(../img/photo-1486312699619-be057cfc0342.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titel {
+    color: white;
+    font-size: 2.5rem;
+    width: 60vw;
+    line-height: 3rem;
+    text-align: center ;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 4vh 5vw;
+}
+
+/* Main */
+
+.pChooseYourTrip {
+    padding: 10vh 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pText {
+    padding: 0 10vw 10vh 10vw;
+    text-align: center;
+    font-family: Poppins;
+}
+
+/* Fotogalerie */
+
+.fotogalerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 7vw;
+}
+
+.imgFotogalerie {
+    width: 28vw;
+}
+
+.aFotogalerie {
+    margin-bottom: 5vh;
+}
+
+/* Tour Dates */
+
+.tourDates {
+    padding: 5vh 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.articleTourDates {
+    padding: 0 7vw 10vh 7vw;
+}
+
+.pTourDates {
+    line-height: 2.5rem;
+    font-family: Poppins;
+}
+
+.soldOut::after {
+    content: " - Sold out";
+    text-transform: uppercase;
+    color: red;
+}
+
+.spotsAvailable::after {
+    content: " - Only 4 spots available";
+    text-transform: uppercase;
+    color: red;
+}
+
+.available::after {
+    content: " - available";
+    text-transform: uppercase;
+    color: green;
+}
+
+/* footer */
+
+footer {
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
+.afooter {
+    padding: 4vh;
+    display: block;
+    text-decoration: none;
+}
