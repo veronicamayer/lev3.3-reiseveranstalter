@@ -41,9 +41,9 @@ font-family: Poppins;
 .titel {
     color: white;
     font-size: 2.5rem;
-    width: 20vw;
     line-height: 3rem;
     text-align: center ;
+    width: 60vw;
 }
 
 h1 {
@@ -71,17 +71,18 @@ h1 {
 .fotogalerie {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0 7vw;
+    gap: 5vh;
 }
 
 .imgFotogalerie {
-    width: 400px;
+    width: 350px;
 }
 
-.aFotogalerie {
+/* .aFotogalerie {
     margin-bottom: 5vh;
-}
+} */
 
 /* Tour Dates */
 
@@ -92,11 +93,11 @@ h1 {
 }
 
 .articleTourDates {
-    padding: 0 7vw 10vh 7vw;
+    padding: 0 10vw 10vh 10vw;
 }
 
 .pTourDates {
-    line-height: 2.5rem;
+    padding-bottom: 1.5rem;
     font-family: Poppins;
 }
 
