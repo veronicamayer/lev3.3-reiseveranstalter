@@ -127,7 +127,27 @@ footer {
 }
 
 .afooter {
-    padding: 4vh;
+    padding: 4vh 0 2vh 0;
     display: block;
     text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    margin-bottom: 6vh;
+}
+
+.imgIcons {
+    width: 30px;
+}
+
+.wa {
+    width: 33px;
+}
+
+.mail {
+    width: 31px;
 }
